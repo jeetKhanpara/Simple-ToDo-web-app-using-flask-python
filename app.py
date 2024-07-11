@@ -19,7 +19,7 @@ class Todo(db.Model):
     desc = db.Column(db.String(500),nullable = False)
     date_created = db.Column(db.DateTime,default = datetime.utcnow )
 
-
+#this is the comment to learn github
 
 @app.route('/',methods=['GET','POST'])
 def main_method():
